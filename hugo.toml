@@ -1,0 +1,28 @@
+theme = 'hugo-theme-relearn'
+baseURL = 'https://volteret4.github.io/doc_scripts/'
+relativeURLs = false
+locale = 'es-ES'
+title = 'Scripts & Proyectos'
+favicon = 'favicon.ico'
+
+[author]
+  name = 'volteret4'
+  email = 'frodobolson@disroot.org'
+
+[params]
+  disableLanguageSwitchingButton = true
+  disableGeneratorVersion = true
+  disableAssetsBusting = true # desactivar en prod.
+  themeVariant = ['zen-dark', 'zen-light', 'relearn-light', 'relearn-dark']
+  linkTitle = 'doc_scripts'
+  collapsibleMenu = true
+  alwaysopen = false
+
+[outputs]
+  home = ['html', 'rss', 'print']
+  page = ['html', 'rss', 'print']
+  section = ['html', 'rss', 'print']
+
+[markup]
+  [markup.highlight]
+    noClasses = false
